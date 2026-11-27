@@ -1,0 +1,78 @@
+﻿{
+  "receivedAtUtc": "2026-11-27T01:22:22.770661+00:00",
+  "eventHubName": "auditlog",
+  "consumerGroup": "diag-check",
+  "partitionId": "0",
+  "sequenceNumber": 4,
+  "offset": "7888",
+  "enqueuedTimeUtc": "2026-11-27T01:13:12.755000+00:00",
+  "systemProperties": {
+    "x-opt-sequence-number-epoch": -1,
+    "x-opt-sequence-number": 4,
+    "x-opt-offset": "7888",
+    "x-opt-enqueued-time": 1795741992755
+  },
+  "properties": {},
+  "body": {
+    "records": [
+      {
+        "time": "2026-11-27T01:06:23.8573170Z",
+        "resourceId": "/tenants/00000000-0000-0000-0000-000000000000/providers/Microsoft.aadiam",
+        "operationName": "Group_GetDynamicGroupProperties",
+        "operationVersion": "1.0",
+        "category": "AuditLogs",
+        "tenantId": "00000000-0000-0000-0000-000000000000",
+        "resultSignature": "None",
+        "resultDescription": "OK",
+        "durationMs": 0,
+        "correlationId": "00000000-0000-0000-0000-000000000000",
+        "identity": "ante5273@hotmail.com",
+        "level": "Informational",
+        "properties": {
+          "category": "GroupManagement",
+          "isReplay": false,
+          "id": "SSGM_ebbdfeb2-e641-4240-aca5-e9a111305106_40fb3ad9-3faf-4218-b819-5f4fcae18fc3_134402151838573170",
+          "correlationId": "00000000-0000-0000-0000-000000000000",
+          "result": "success",
+          "resultReason": "OK",
+          "activityDisplayName": "Group_GetDynamicGroupProperties",
+          "activityDateTime": "2026-11-27T01:06:23.857317+00:00",
+          "loggedByService": "Self-service Group Management",
+          "operationType": "Update",
+          "userAgent": "",
+          "initiatedBy": {
+            "app": {
+              "appId": null,
+              "displayName": "ante5273@hotmail.com",
+              "servicePrincipalId": null,
+              "servicePrincipalName": null,
+              "agentType": "notAgentic",
+              "blueprintId": null
+            }
+          },
+          "additionalDetails": [
+            {
+              "key": "RequestId",
+              "value": "00000000-0000-0000-0000-000000000000"
+            }
+          ],
+          "targetResources": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "displayName": "Unknown",
+              "type": "Group",
+              "groupType": "azureAD",
+              "modifiedProperties": [],
+              "administrativeUnits": [],
+              "agentType": "notAgentic"
+            }
+          ],
+          "performedBy": {
+            "agentType": "notAgentic",
+            "appId": "00000000-0000-0000-0000-000000000000"
+          }
+        }
+      }
+    ]
+  }
+}
