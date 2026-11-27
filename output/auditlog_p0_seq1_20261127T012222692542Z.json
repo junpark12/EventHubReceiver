@@ -1,0 +1,94 @@
+﻿{
+  "receivedAtUtc": "2026-11-27T01:22:22.692451+00:00",
+  "eventHubName": "auditlog",
+  "consumerGroup": "diag-check",
+  "partitionId": "0",
+  "sequenceNumber": 1,
+  "offset": "2040",
+  "enqueuedTimeUtc": "2026-11-27T01:08:49.583000+00:00",
+  "systemProperties": {
+    "x-opt-sequence-number-epoch": -1,
+    "x-opt-sequence-number": 1,
+    "x-opt-offset": "2040",
+    "x-opt-enqueued-time": 1795741729583
+  },
+  "properties": {},
+  "body": {
+    "records": [
+      {
+        "time": "2026-11-27T01:06:28.4882911Z",
+        "resourceId": "/tenants/00000000-0000-0000-0000-000000000000/providers/Microsoft.aadiam",
+        "operationName": "Delete group",
+        "operationVersion": "1.0",
+        "category": "AuditLogs",
+        "tenantId": "00000000-0000-0000-0000-000000000000",
+        "resultSignature": "None",
+        "durationMs": 0,
+        "callerIpAddress": "0.0.0.0",
+        "correlationId": "00000000-0000-0000-0000-000000000000",
+        "level": "Informational",
+        "properties": {
+          "category": "GroupManagement",
+          "isReplay": false,
+          "id": "Directory_bfe15aa8-50e7-471d-b64f-9649abf499b9_K86VR_270021486",
+          "correlationId": "00000000-0000-0000-0000-000000000000",
+          "result": "success",
+          "resultReason": "",
+          "activityDisplayName": "Delete group",
+          "activityDateTime": "2026-11-27T01:06:28.4882911Z",
+          "loggedByService": "Core Directory",
+          "operationType": "Delete",
+          "userAgent": "",
+          "initiatedBy": {
+            "user": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "displayName": null,
+              "userPrincipalName": "user_example#EXT#@contoso.onmicrosoft.com",
+              "ipAddress": "0.0.0.0",
+              "roles": [],
+              "agentType": "notAgentic"
+            }
+          },
+          "additionalDetails": [
+            {
+              "key": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/0.0.0.0 Safari/537.36"
+            }
+          ],
+          "targetResources": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "displayName": "sample-group",
+              "type": "Group",
+              "groupType": "unknownFutureValue",
+              "modifiedProperties": [
+                {
+                  "displayName": "DeletionType",
+                  "oldValue": "\"SoftDelete\"",
+                  "newValue": null
+                },
+                {
+                  "displayName": "GroupType",
+                  "oldValue": "\"Security group with static membership\"",
+                  "newValue": null
+                },
+                {
+                  "displayName": "CreatedDateTime",
+                  "oldValue": "\"2026-11-27T00:54:18Z\"",
+                  "newValue": null
+                },
+                {
+                  "displayName": "LastUpdatedDateTime",
+                  "oldValue": "\"2026-11-27T00:54:18Z\"",
+                  "newValue": null
+                }
+              ],
+              "administrativeUnits": [],
+              "agentType": "notAgentic"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
